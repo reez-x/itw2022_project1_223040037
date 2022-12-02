@@ -138,6 +138,7 @@ form .btn{
     border-radius: 15px;
     position: relative;
     overflow: hidden;
+	margin-left: ; 20px: 
 }
 form .btn .btn-layer{
     height: 100%;
@@ -165,8 +166,32 @@ form .btn input[type="submit"]{
     font-weight: 500;
     cursor: pointer;
 }
+.field2{
+	display: none;
+}
+
 /* End Donate Button */
 
+/* Social */
+.social a{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--2nd-color);
+	font-size: 17px;
+	color: var(--bg-color);
+	margin-right: 22px;
+	margin-bottom: 30px;
+}
+.social a:hover{
+	transform: scale(1.1);
+	background: var(--main-color);
+	transition: .5s;
+}
+/* End Social */
 section{
 	padding: 160px 15% 120px;
 }
@@ -186,12 +211,17 @@ section div h1{
 	grid-gap: 4rem;
 	background-color: var(--second-bg-color);
 }
+
 .home-img img{
 	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
 	background-color: var(--main-color);
-	max-width: 100%;96
-	width: auto;
-	height: 300px;
+	max-width: 100%;
+	width: 400px;
+	height: auto;
+	align-self: center;
+}
+.home-img{
+	text-align: center;
 }
 .slide{
 	margin-bottom: 20px;
@@ -750,4 +780,48 @@ form textarea{
 	.field{
 		display: none;
 	}
+	.field2{
+		display: block;
+	}
+	.donate{
+		width: 100%;
+	}
+	form .btn{
+		text-align: center;
+		align-items: center;
+	}
+	.login{
+		display: no;
+	}
+	.header-left{
+		padding-right: 20px;
+	}
 }
+
+/*  */
+/*  */
+/* prototype */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
