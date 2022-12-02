@@ -180,9 +180,9 @@ form .btn input[type="submit"]{
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	background: var(--2nd-color);
+	background: var(--main-color);
 	font-size: 17px;
-	color: var(--bg-color);
+	color: var(--second-bg-color);
 	margin-right: 22px;
 	margin-bottom: 30px;
 }
@@ -228,13 +228,12 @@ section div h1{
 -}
 .one{
 	display: inline-block;
-	margin-right: 15px;
 	height: 32px;
-	padding: 0 15px;
+	padding-left: 0 15px;
+	padding-right: 5px;
 	line-height: 32px;
 	font-size: 20px;
 	font-weight: 500;
-	border-radius: 5px;
 	color: var(--main-color);
 }
 .two{
@@ -795,6 +794,9 @@ form textarea{
 	}
 	.header-left{
 		padding-right: 20px;
+	}
+	.social{
+		text-align: center;
 	}
 }
 
