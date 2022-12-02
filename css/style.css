@@ -212,6 +212,7 @@ section div h1{
 	background-color: var(--second-bg-color);
 }
 
+
 .home-img img{
 	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
 	background-color: var(--main-color);
@@ -733,7 +734,7 @@ form textarea{
 	  margin-top: 100px;
   }
   .home{
-    display: flex;
+    display: grid;
   }
 }
 
@@ -742,18 +743,11 @@ form textarea{
 
 
 .home{
-	min-height: 100vh;
-	height: 100%;
-	width: 100%;
-	background-size: cover;
-	background-position: center;
-	position: relative;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	align-items: center;
-	grid-gap: 4rem;
-	background-color: var(--second-bg-color);
+	
 }
+
 
 @media (max-width: 800px){
 	.home{
@@ -798,6 +792,7 @@ form textarea{
 	.social{
 		text-align: center;
 	}
+	
 }
 
 /*  */
