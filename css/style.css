@@ -169,7 +169,11 @@ form .btn input[type="submit"]{
 .field2{
 	display: none;
 }
-
+.donate-menu{
+	display: none;
+	background: -webkit-linear-gradient(right, var(--2nd-color), var(--main-color), var(--2nd-color), var(--main-color));
+	border-radius: 15px;
+}
 /* End Donate Button */
 
 /* Social */
@@ -620,7 +624,7 @@ form textarea{
 		grid-gap: 1rem;
 	}
 	.home-text{
-		padding-top: 55px;
+		padding-top: 100px;
 	}
 	.home-img{
 		text-align: center;
