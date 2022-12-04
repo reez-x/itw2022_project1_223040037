@@ -171,8 +171,13 @@ form .btn input[type="submit"]{
 }
 .donate-menu{
 	display: none;
+	left: -100%;
 	background: -webkit-linear-gradient(right, var(--2nd-color), var(--main-color), var(--2nd-color), var(--main-color));
 	border-radius: 15px;
+	transition: all 0.4s ease;;
+}
+.donate-menu::after{
+	left: 0;
 }
 /* End Donate Button */
 
@@ -187,8 +192,7 @@ form .btn input[type="submit"]{
 	background: var(--main-color);
 	font-size: 17px;
 	color: var(--second-bg-color);
-	margin-right: 22px;
-	margin-bottom: 30px;
+	margin: 0px 10px 0px 10px;
 }
 .social a:hover{
 	transform: scale(1.1);
@@ -285,6 +289,20 @@ header.sticky{
 	border-bottom: 1px solid #ffffff1a;
 	padding: 12px 15%;
 }
+
+/* slide2 */
+.slide2{
+	height: 100vh;
+	background-color: var(--bg-color);
+}
+/* End slide 2 */
+
+/* slide3 */
+.slide3{
+	height: 100vh;
+	background-color: var(--second-bg-color);
+}
+/* End slide 2 */
 
 .about{
 	display: grid;
@@ -732,14 +750,17 @@ form textarea{
 	.home-text h1{
 		font-size: 50px;
 	}
-  .home-img img{
-    align-items: center;
-    margin-left: 0px;
-	  margin-top: 100px;
-  }
-  .home{
-    display: grid;
-  }
+	.home-img img{
+    	align-items: center;
+    	margin-left: 0px;
+		margin-top: 100px;
+  	}
+	.home-img{
+		height: 100vh;
+	}
+  	.home{
+    	display: grid;
+  	}
 }
 
 /* test */
